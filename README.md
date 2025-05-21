@@ -28,8 +28,7 @@ A responsive, modern weather dashboard built with HTML5, CSS3, and JavaScript, l
 
 ## Usage
 - **Search for a Location**: Enter a city name in the search bar and click the search button or press Enter. Example: London, New York, Tokyo.
---
-- **Use Geolocation:**: On first load, the app attempts to use the browser's Geolocation API to fetch weather data for your current location.If geolocation is unavailable, it defaults to a predefined location (Province of Turin, Italy).
+- **Use Geolocation**: On first load, the app attempts to use the browser's Geolocation API to fetch weather data for your current location.If geolocation is unavailable, it defaults to a predefined location (Province of Turin, Italy).
 - **Toggle Units**: Click the °C or °F button to switch between Celsius and Fahrenheit units.
-- **View Weather Details**: Visual Studio Code, Browser Developer Tools
-- **Dependencies**: Font Awesome (for icons), Montserrat Font (via Google Fonts)
+- **View Weather Details**: Current Weather: Displays temperature, feels-like temperature, weather description, and an icon.Highlights: Shows humidity, wind speed/direction, pressure, and visibility with visual progress bars.Temperature Range: Visualizes the day's min/max temperatures with a progress bar.5-Day Forecast: Scrollable cards display weather forecasts for the next 5 days in 3-hour intervals.Sunrise/Sunset: Shows sunrise and sunset times with a sun position timeline.
+- **Error Handling**: If an invalid city is entered or the API fails, an error message appears in the top-right corner. Click the close button to dismiss it.
