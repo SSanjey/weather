@@ -1,17 +1,13 @@
 # Weather Dashboard Web Application
 
+![image](https://github.com/user-attachments/assets/92691d63-e832-4c80-ba39-33adcc5baf5a)
+
 A responsive, modern weather dashboard built with HTML5, CSS3, and JavaScript, leveraging the OpenWeatherMap API to provide real-time weather data and 5-day forecasts. The application features a dynamic user interface with temperature unit toggling, weather-specific backgrounds, and detailed weather metrics, optimized for both desktop and mobile devices.
 
 ## Table of Contents
 - [Features](#features)
 - [Technologies](#technologies)
-- [Setup](#setup)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 - **Real-Time Weather Data**: Fetches current weather conditions for user-specified locations or geolocation-based coordinates using the OpenWeatherMap API.
@@ -30,10 +26,9 @@ A responsive, modern weather dashboard built with HTML5, CSS3, and JavaScript, l
 - **Tools**: Visual Studio Code, Browser Developer Tools
 - **Dependencies**: Font Awesome (for icons), Montserrat Font (via Google Fonts)
 
-## Setup
-To run this project locally, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/weather-dashboard.git
-   cd weather-dashboard
+## Usage
+- **Search for a Location**: Enter a city name in the search bar and click the search button or press Enter. Example: London, New York, Tokyo.
+- **Use Geolocation:**: On first load, the app attempts to use the browser's Geolocation API to fetch weather data for your current location.If geolocation is unavailable, it defaults to a predefined location (Province of Turin, Italy).
+- **Toggle Units**: Click the °C or °F button to switch between Celsius and Fahrenheit units.
+- **View Weather Details**: Visual Studio Code, Browser Developer Tools
+- **Dependencies**: Font Awesome (for icons), Montserrat Font (via Google Fonts)
