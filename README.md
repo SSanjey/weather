@@ -28,6 +28,7 @@ A responsive, modern weather dashboard built with HTML5, CSS3, and JavaScript, l
 
 ## Usage
 - **Search for a Location**: Enter a city name in the search bar and click the search button or press Enter. Example: London, New York, Tokyo.
+--
 - **Use Geolocation:**: On first load, the app attempts to use the browser's Geolocation API to fetch weather data for your current location.If geolocation is unavailable, it defaults to a predefined location (Province of Turin, Italy).
 - **Toggle Units**: Click the °C or °F button to switch between Celsius and Fahrenheit units.
 - **View Weather Details**: Visual Studio Code, Browser Developer Tools
